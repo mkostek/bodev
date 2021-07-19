@@ -39,10 +39,10 @@ def index() -> str:
     return json.dumps({'buyuk_sehirler': buyuk_sehirler()})
 
 @app.route('/healtcheck')
-def index() -> str:
+def run1():
     return jsonify(healtcheck)
 
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=5001)
-    app.run(host='0.0.0.0',port=5001)
+    app.run1(host='0.0.0.0',port=5001)
