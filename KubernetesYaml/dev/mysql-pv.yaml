@@ -10,4 +10,4 @@ spec:
   accessModes:
     - ReadWriteOnce
   hostPath:
-    path: "/opt/mydb-dev"
+    path: "/opt/mydb-test"
