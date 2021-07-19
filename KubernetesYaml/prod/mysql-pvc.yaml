@@ -3,7 +3,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: mydb-pvc
-  namespace: test
+  namespace: prod
 spec:
   accessModes:
     - ReadWriteOnce
